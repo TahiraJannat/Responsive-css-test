@@ -54,7 +54,7 @@ h3 {
 .borderLeft {
   margin: 60px 0 60px 0;
   border-left: 8px solid #003a40;
-  padding: 0 0 0 30px;
+  padding: 0 15px 0 20px;
 }
 
 /*MENU START*/
@@ -180,7 +180,7 @@ hr.solid1 {
   grid-template-columns: 1fr;
   gap: 10px;
   text-align: left;
-  margin: 40px 40px 0 40px;
+  margin: 40px 30px 0 30px;
 }
 .aboutSection h2 {
   border-top: 2px solid #000;
@@ -198,16 +198,16 @@ hr.solid1 {
 .aboutSection div:nth-child(2) h3 {
   font-weight: 900px;
   text-align: center;
-  margin-left: -10px;
+  margin: 0;
 }
 .aboutSection div:nth-child(2) ul {
   margin-top: 20px;
-  padding: 0 30px 0 30px;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
 .aboutSection div:nth-child(2) ul li {
-  padding: 0 0 10px 0;
+  padding: 0 0 20px 0;
 }
 /* ..... */
 .aboutSection-col-3 {
@@ -457,6 +457,10 @@ button {
 
 @media screen and (min-width: 768px) {
   /*GLOBAL CSS*/
+  .borderLeft {
+   
+    padding: 0 40px 0 40px;
+  }
   p,
   ul,
   li {
@@ -892,12 +896,20 @@ button {
     text-align: center;
     gap: 30px;
   }
+  .tabImg img {
+    width: 120px;
+    height: 45px;
+  }
+  .tabImg2 img {
+    width: 140px;
+    height: 45px;
+  }
 
   .col-4-space {
     margin-top: 20px;
   }
   .col-4-five {
-    margin-top: 25px;
+    /* margin-top: 25px; */
   }
   .col-4-nine {
     grid-column: 1 / span 2;
